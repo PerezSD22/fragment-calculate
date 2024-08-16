@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 const Calculator = () => {
   const [piceSet, setPice] = useState(0);
@@ -10,19 +10,6 @@ const Calculator = () => {
   const [previousTierPieces, setPreviousTierPieces] = useState(0);
   const [numberSlime, SetNumberSlime] = useState(0);
 
-  const [resultView, setResultView] = useState([
-    {
-      id: 1,
-      text: "Total fragments for crafting:",
-      result: { totalFragment },
-    },
-    {
-      id: 2,
-      text: "Fragments earned per burn:",
-      result: { previousTierFragments },
-    },
-    {},
-  ]);
 
   const handleSetChange = (events: any) => {
     setPice(parseInt(events.target.value));
