@@ -38,7 +38,7 @@ const Calculator = () => {
   };
 
   return (
-    <div className="bg-slate-800 max-h-md max-w-md flex-row rounded-md mx-auto py-5">
+    <div className="bg-slate-800 max-h-lvh max-w-2xl flex-row rounded-md mx-auto py-5">
       <h3 className="mx-5 ">Fragment Calculator</h3>
       {/* Frist section -> input calculator */}
       <div className="mx-5 my-5 ">
