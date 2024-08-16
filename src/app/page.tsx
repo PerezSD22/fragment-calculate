@@ -1,5 +1,5 @@
 import React from 'react'
-import Calculator from '@/Components/Calculator'
+import Calculator from './components/Calculator'
 
 const Home = () => {
   return (
