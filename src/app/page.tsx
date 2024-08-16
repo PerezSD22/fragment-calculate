@@ -4,7 +4,7 @@ import Calculator from '@/Components/Calculator'
 const Home = () => {
   return (
     <>
-    <h1> create by: Hayashi.ron </h1>
+    <h1 className='font-bold text-lg'> create by: Hayashi.ron </h1>
     <Calculator/>
     </>
   )
